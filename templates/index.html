@@ -18,7 +18,7 @@
       position: absolute;
       width: 40px;
       height: 40px;
-      z-index: 9999;
+      z-index: 0;
       pointer-events: none;
       transform: translate(-50%, -50%);
     }
@@ -59,7 +59,7 @@
       height: 20px;
       background-color: red;
       border-radius: 50%;
-       z-index: 2
+      z-index: 2;
     }
 
     .score-board {
@@ -115,15 +115,6 @@
       <div class="reptile-eye eye-right"><div class="pupil"></div></div>
     </div>
   </div>
-  #cursor {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  z-index: 9999;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-}
-
 
   <script>
     const cursor = document.getElementById("cursor");
